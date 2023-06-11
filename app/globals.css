@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px dotted red; */
+}
+
+
+.btns{
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  color: white;
+}
+
+input{
+  background-color: transparent;
+}
+
+.btn{
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: rgb(54, 54, 54);
+  margin: .2rem;
+  transition: .4s all;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: rgb(87, 87, 87);
+}
+
+.letters{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.letters button{
+height: 3rem;
+width: 3rem;
+}
+
+.btns{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.labeling{
+  color: #444444;
+  position: absolute;
+  margin: 5px;
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+
+.active{
+  color: red;
+  position: absolute;
+  margin: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+
+#current{
+  font-size: 40px;
+  padding: 2.5rem;
+}
+
+.backspace{
+  font-size: 17px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (max-height: 741px) {
+  .rows button{
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+} */
+
+@media (max-width: 1850px) {
+  .letters{
+    margin-top: 2rem;
+  }
+  .letters button{
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .btn{
+    height: 7rem;
+    width: 7rem;
+  }
+}
+
+@media (max-width: 1185px) {
+  .letters button{
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .btn{
+    height: 7rem;
+    width: 7rem;
+  }
+}
+
+@media (max-width: 966px) {
+  .letters button{
+    height: 4rem;
+    width: 4rem;
+  }
+  .btn{
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 838px) {
+  .letters button{
+    height: 3.7rem;
+    width: 3.7rem;
+  }
+  .btn{
+    height: 5.8rem;
+    width: 5.8rem;
+  }
+}
+
+@media (max-width: 813px) {
+  .letters button{
+    height: 3rem;
+    width: 3rem;
+  }
+  .btn{
+    height: 4.7rem;
+    width: 4.7rem;
+  }
+}
+
+@media (max-width: 672px) {
+  .letters button{
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+  .btn{
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .letters button{
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+  .btn{
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+#equal{
+  background-color: rgb(134, 75, 75);
+}
+
+#difcol{
+  background-color: rgb(85, 81, 81);
+}
+
+@media (max-width: 394px) {
+  .btn{
+    height: 4.7rem;
+    width: 4.7rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .letters button{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .btn{
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media (max-width: 333px) {
+  .btn{
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .letters button{
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+  .btn{
+    height: 2.9rem;
+    width: 2.9rem;
+  }
+}
