@@ -130,6 +130,13 @@ export default function Home() {
     setOctal('0');
   }
 
+  const handleLetters = (letter) => {
+    setFirstInput(firstInput + letter);
+    setHexadecimal(letter);
+    setCurrentScreen(firstInput + letter);
+    setProgValue('hex');
+  }
+
   const convertFromHexadecimal = () => {
     const value = currentScreen;
     const decimalValue = parseInt(value, 16);
