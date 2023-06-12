@@ -216,12 +216,12 @@ export default function Home() {
       <div className="btns">
         <div className="up-btns">
           <div className="letters">
-            <button className="btn">A</button>
-            <button className="btn">B</button>
-            <button className="btn">C</button>
-            <button className="btn">D</button>
-            <button className="btn">E</button>
-            <button className="btn">F</button>
+            <button className="btn" onClick={() => handleLetters('A')}>A</button>
+            <button className="btn" onClick={() => handleLetters('B')}>B</button>
+            <button className="btn" onClick={() => handleLetters('C')}>C</button>
+            <button className="btn" onClick={() => handleLetters('D')}>D</button>
+            <button className="btn" onClick={() => handleLetters('E')}>E</button>
+            <button className="btn" onClick={() => handleLetters('F')}>F</button>
           </div>
         </div>
 

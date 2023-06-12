@@ -98,12 +98,12 @@ width: 3rem;
     margin-top: 2rem;
   }
   .letters button{
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 3.3rem;
+    width: 3.3rem;
   }
   .btn{
-    height: 7rem;
-    width: 7rem;
+    height: 5.2rem;
+    width: 5.2rem;
   }
 }
 
@@ -149,6 +149,9 @@ width: 3rem;
     height: 4.7rem;
     width: 4.7rem;
   }
+  .letters{
+    margin: 5px;
+  }
 }
 
 @media (max-width: 672px) {
@@ -163,15 +166,24 @@ width: 3rem;
 }
 
 @media (max-width: 415px) {
+  .active,.labeling{
+      font-size: 1rem;
+  }
+  #current{
+    font-size: 1.75rem;
+    padding: 5px 10px;
+    height: 100%;
+  }
   .letters button{
-    height: 3.3rem;
-    width: 3.3rem;
+    height: 2.8rem;
+    width: 2.8rem;
   }
   .btn{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
   }
 }
+
 
 #equal{
   background-color: rgb(134, 75, 75);
@@ -182,27 +194,36 @@ width: 3rem;
 }
 
 @media (max-width: 394px) {
+  .letters button{
+    height: 2.2rem;
+    width: 2.2rem;
+  }
   .btn{
-    height: 4.7rem;
-    width: 4.7rem;
+    height: 3.5rem;
+    width: 3.5rem;
   }
 }
 
 @media (max-width: 365px) {
   .letters button{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
   }
-  .btn{
-    height: 4rem;
-    width: 4rem;
-  }
-}
-
-@media (max-width: 333px) {
   .btn{
     height: 3.5rem;
     width: 3.5rem;
+  }
+}
+
+
+@media (max-width: 333px) {
+  .letters button{
+    height: 2rem;
+    width: 2rem;
+  }
+  .btn{
+    height: 3.2rem;
+    width: 3.2rem;
   }
 }
 @media (max-width: 300px) {

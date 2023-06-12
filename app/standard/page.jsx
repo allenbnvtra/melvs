@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="btns">
+      <div className={styles.btns}>
         <div className="down-btns">
           <div className="rows">
             <button

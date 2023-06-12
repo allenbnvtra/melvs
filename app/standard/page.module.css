@@ -31,34 +31,9 @@
     background-color: transparent;
   }
   
-  
-  
-  .prog{
-    height: 65%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .prog div{
-    height: 40px;
-  }
-  
-  .myprog{
-    background-color: transparent;
-  }
-  
-  .myprog input{
-    height: 100%;
-    width: 85%;
-    padding-left: 3.5rem;
-    padding-top: 1.8px;
-    align-items: center;
-    width: 100%;
-    font-size: 20px;
-    outline: none;
-    border: none;
-    background-color: transparent;
+  .btns{
+    margin-top: 15px;
+    margin-botto: 15px;
   }
   
   /* .myprog .labeling{
