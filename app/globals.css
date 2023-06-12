@@ -218,7 +218,7 @@ width: 3rem;
 }
 
 
-@media (max-width: 333px) {
+@media (max-width: 343px) {
   .letters button{
     height: 2rem;
     width: 2rem;
@@ -228,7 +228,7 @@ width: 3rem;
     width: 3.2rem;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .letters button{
     height: 1.8rem;
     width: 1.8rem;
@@ -236,5 +236,17 @@ width: 3rem;
   .btn{
     height: 2.9rem;
     width: 2.9rem;
+  }
+}
+
+@media (max-width: 296px) {
+  .letters button{
+    height: 1.7rem;
+    width: 1.7rem;
+    padding: 0;
+  }
+  .btn{
+    height: 2.4rem;
+    width: 2.4rem;
   }
 }

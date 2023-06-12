@@ -131,10 +131,17 @@ export default function Home() {
   }
 
   const handleLetters = (letter) => {
-    setFirstInput(firstInput + letter);
-    setHexadecimal(letter);
-    setCurrentScreen(firstInput + letter);
-    setProgValue('hex');
+    if(firstInput === null){
+      setFirstInput(letter);
+      setHexadecimal(letter);
+      setCurrentScreen(letter);
+      setProgValue('hex');
+    }else{
+      setFirstInput(firstInput + letter);
+      setHexadecimal(letter);
+      setCurrentScreen(firstInput + letter);
+      setProgValue('hex');
+    }
   }
 
   const convertFromHexadecimal = () => {
