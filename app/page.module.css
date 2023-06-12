@@ -8,6 +8,8 @@
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
+  padding: 1rem .5rem;
 }
 
 .display{
